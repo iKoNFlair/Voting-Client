@@ -1,0 +1,15 @@
+.m_wrapper {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: green; */
+}
+.m_head {
+  background: #ff8f00;
+  background: linear-gradient(to bottom right, #ff8f00 27%, #00cf07 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

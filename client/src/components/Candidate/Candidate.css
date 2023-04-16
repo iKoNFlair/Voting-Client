@@ -1,0 +1,16 @@
+.col img {
+  width:80px;
+  height:80px;
+}
+.col button{
+    margin-left: 3rem;
+}
+@media screen and (max-width:480px){
+    .col button{
+        margin-left: 1rem;
+    }
+    .col img {
+        width:60px;
+        height:60px;
+      }
+}

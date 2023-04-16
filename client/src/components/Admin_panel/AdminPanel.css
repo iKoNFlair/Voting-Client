@@ -1,0 +1,39 @@
+
+
+/* { mid } */
+
+.candidate_list {
+    border-radius: 1rem;
+    height: 70%;
+    overflow-y: scroll;
+    margin-top: 0.5rem;
+  }
+  
+  .row {
+    border-bottom: 0.1rem solid black;
+  }
+  .col {
+    padding: 0.4rem;
+  }
+  
+  .tab{
+    margin-top: 20px;
+  }
+
+  .btns{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .add-btn{
+    margin: 0 5px 0 0;
+  }
+
+  @media screen and (max-width:480px){
+    .btns{
+      width: 100%;
+    }
+}
+  /* { mid } */
+  
